@@ -21,8 +21,8 @@
  - https://kotlinlang.org/docs/getting-started.html#choose-your-kotlin-use-case
 
 ## Video Demostrativo
-   link
-
+ -https://youtu.be/q3-cAK6i7eo?si=KhpGYXFsjVxQOw4K
+  
 ## Integrantes y porcentaje trabajado
  - Franly Azael Marroquin Carmona MC230204 (100%)
  - Katherine Yamileth Flores Avila FA231908 (100%)
