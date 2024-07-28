@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/black"
+    tools:context=".AggNoteActivity">
+
+    <TextView
+        android:id="@+id/addNoteHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="Ingresa una nota"
+        android:textColor="@color/blue"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:tint="@color/blue"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/addNoteHead"
+        android:layout_marginEnd="6dp"/>
+
+    <EditText
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Ingrese el titulo"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/addNoteHead"
+        android:background="@drawable/blue_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:fontFamily="monospace"/>
+
+    <EditText
+        android:id="@+id/contentText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Describe tu actividad"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:background="@drawable/blue_border"
+        android:layout_below="@id/titleText"
+        android:layout_marginTop="12dp"/>
+</RelativeLayout>
