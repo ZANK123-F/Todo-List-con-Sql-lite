@@ -21,7 +21,7 @@
  - https://kotlinlang.org/docs/getting-started.html#choose-your-kotlin-use-case
 
 ## Video Demostrativo
- -https://youtu.be/q3-cAK6i7eo?si=KhpGYXFsjVxQOw4K
+ - https://youtu.be/q3-cAK6i7eo?si=KhpGYXFsjVxQOw4K
   
 ## Integrantes y porcentaje trabajado
  - Franly Azael Marroquin Carmona MC230204 (100%)
